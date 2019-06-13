@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family:'Varela Round', sans-serif;
+}
+
+h1{
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+
+
+img{
+  height: 20rem;
+  padding: 2.5rem; 
+}
+
+
+
+.walk{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: flex-end; 
+  width: 81%; 
+  padding: 4px;
+  margin-bottom: 3rem;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.about{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: flex-end; 
+  width: 85%; 
+  padding: 4px;
+  margin-bottom: 3rem;
+  font-size: 5rem;
+  font-weight: bold;
+}
