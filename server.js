@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const axios = require('axios')
-const PORT = env.process.PORT || 8080
+const PORT = process.env.PORT || 8080
 // const logger = require('./logger')
 
 app.set('view engine', 'ejs') // express thing built -in
