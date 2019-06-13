@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const axios = require('axios')
+const PORT = env.process.PORT || 8080
 // const logger = require('./logger')
 
 app.set('view engine', 'ejs') // express thing built -in
@@ -20,6 +21,6 @@ app.get('/walk', (req,res) => {
   })
 
 
-app.listen(8080, () => {
+app.listen(PORT, () => {
   console.log('listening on 8080')
 })
